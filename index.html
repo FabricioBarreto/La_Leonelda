@@ -20,23 +20,24 @@
 <body>
 	<div class="container">
 		<header>
-			<nav class="header_nav">
-			<span class="logo_header"><a href="#">LA LEONELDA</a></span>
-			<span class="btn_menu">
-				<i class="fas fa-bars"></i>
-			</span>
-				<ul class="links_header">
-					<li><a href="#" class="active">INICIO</a></li>
+			<div class="logo-header"><a href="#">LA LEONELDA</a></div>
+			<button class="btn-menu">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</button>
+			<nav>
+				<ul class="links-header">
+					<li><a href="#" class="li-active">INICIO</a></li>
 					<li><a href="#">GALERÍA</a></li>
 					<li><a href="#">CONTACTO</a></li>
 					<li><a href="#">UBICACIÓN</a></li>
-					<li class="language">
+					<li>
 						<div class="dropdown">
-  							<button  type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  							<button  type="button" data-bs-toggle="dropdown" aria-expanded="false" class="btn-language">
   								<img src="img/español.png" alt="Language" width="30px">
-  								<i class="fas fa-sort-down"></i>
   							</button>
-  							<ul class="dropdown-menu language" aria-labelledby="dropdownMenuButton1">
+  							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     							<li>
     								<a href="language/ingles.html">
 									<img src="img/ingles.png" alt="English" width="30px"> English</a></a>
@@ -47,7 +48,7 @@
 								</li>
 								<li>
 									<a  href="language/portugues.html">
-									<img src="img/brasil.png" alt="Português" width="30px">Português</a>
+									<img src="img/brasil.png" alt="Português" width="30px">Portugués</a>
 								</li>
   							</ul>
 						</div>
@@ -61,8 +62,8 @@
 				<div class="col-12"><h1>HOTEL DE CAMPO</h1></div>
 				<div class="col-12"><p>El descanso y conford que necesitabas. <br>
 				Con amplia vista de espacio verde y habitaciones acondicionadas para que puedas tomarte un descanso.</p></div>
-				<div class="col-sm-12 col-md-6"><img src="img/hotel.png" alt="Imagen" class="img_main"></div>
-				<div class="col-sm-12 col-md-6"><img src="img/piscina.png" alt="Imagen" class="img_main"></div>
+				<div class="col-sm-12 col-md-6"><img src="img/hotel.png" alt="Imagen" class="img-main"></div>
+				<div class="col-sm-12 col-md-6"><img src="img/piscina.png" alt="Imagen" class="img-main"></div>
 			</div>
 
 			<div class="row text-center gallery">
@@ -111,8 +112,8 @@
 					<p class="coppy_p">&copy;<a href="#" class="coppy_a">LA LEONELDA HOTEL</a></p>
 				</div>
 				<div class="col-sm-12 col-xl-4 pt-4">
-					<nav class="nav_footer">
-						<ul class="links_footer">
+					<nav class="nav-footer">
+						<ul class="links-footer">
 							<li>Telefono:<a href="#"> 3734-445244</a></li>
 							<li>Correo:<a href="#"> LaLeoneldaHotel@gmail.com</a></li>
 							<li>Facebook:<a href="#"> La Leonelda Hotel De Campo</a></li>
@@ -126,8 +127,6 @@
 	<script src="js/jquery-3.6.0.min.js"></script>
 		<!--Popper.js-->
 	<script src="js/popper.min.js"></script>
-		<!--Boostrap JS-->
-	<script src="js/bootstrap.min.js"></script>
 		<!--Scrips-->
 	<script src="js/media.js"></script>
 </body>
