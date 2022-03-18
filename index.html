@@ -20,12 +20,7 @@
 <body>
 	<div class="container">
 		<header>
-			<div class="logo-header"><a href="#">LA LEONELDA</a></div>
-			<button class="btn-menu">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
-			</button>
+			<span class="logo-header">LA LEONELDA</span>
 			<nav>
 				<ul class="links-header">
 					<li><a href="#" class="li-active">INICIO</a></li>
@@ -33,11 +28,11 @@
 					<li><a href="#">CONTACTO</a></li>
 					<li><a href="#">UBICACIÓN</a></li>
 					<li>
+						<button  type="button" data-bs-toggle="dropdown" aria-expanded="false" class="btn-language">
+							<img src="img/español.png" alt="Language" width="30px">
+						</button>
 						<div class="dropdown">
-  							<button  type="button" data-bs-toggle="dropdown" aria-expanded="false" class="btn-language">
-  								<img src="img/español.png" alt="Language" width="30px">
-  							</button>
-  							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  							<ul class="menu-lenguage " aria-labelledby="dropdownMenuButton">
     							<li>
     								<a href="language/ingles.html">
 									<img src="img/ingles.png" alt="English" width="30px"> English</a></a>
@@ -48,13 +43,18 @@
 								</li>
 								<li>
 									<a  href="language/portugues.html">
-									<img src="img/brasil.png" alt="Português" width="30px">Portugués</a>
+									<img src="img/brasil.png" alt="Português" width="30px"> Portugués</a>
 								</li>
   							</ul>
 						</div>
 					</li>
 				</ul>
 			 </nav>
+			 <button class="btn-menu">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</button>
 		</header>
 
 		<main>
