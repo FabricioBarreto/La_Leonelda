@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -169,3 +170,164 @@ body {
 	padding: 10px;
   }
 
+=======
+  background: #543e28;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  background: #753900;
+}
+/* HEADER */
+header {
+  background: #ad5605;
+}
+
+.logo_header {
+  margin: 20px;
+}
+
+.logo_header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 2;
+  font-weight: 800;
+  text-shadow: 3px 3px #000;
+}
+
+.links_header {
+  display: flex;
+  list-style: none;
+  margin: 35px;
+}
+
+header i {
+  color: #fff;
+}
+
+.links_header a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.links_header a:hover {
+  background: #753900;
+  border-radius: 5px;
+  box-shadow: 2px 2px #000;
+  transition: 0.5s;
+}
+
+.active {
+  background: #753900;
+  border-radius: 5px;
+}
+
+.btn_menu {
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.idiomas button {
+  margin-top: -2px;
+  border: none;
+  background: none;
+}
+
+.idiomas button:hover {
+  color: #fff;
+  background: #753900;
+  border-radius: 5px;
+  box-shadow: 2px 2px #000;
+  transition: 0.5s;
+}
+
+#dropdownMenuButton1 {
+  background: none;
+}
+
+.idiomas ul {
+  background: #ad5605;
+}
+
+.idiomas a {
+  display: block;
+  padding: 5px;
+}
+/* MAIN */
+.main {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.img_main {
+  border-radius: 15px;
+  height: 300px;
+  width: 90%;
+  margin: 20px;
+}
+
+.gallery h2 {
+  padding: 10px;
+  margin-top: 10px;
+  background: #ad7e37;
+}
+
+.gallery img {
+  border-radius: 15px;
+  margin: 5px;
+  width: 90%;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #5c2c00;
+}
+
+.logo_footer {
+  margin: 40px 30px 0;
+}
+
+.logo_footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.logo_footer a:hover {
+  color: #fff;
+}
+
+.coppy_p {
+  margin: 50px;
+}
+
+.coppy_a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eba878;
+}
+
+.links_footer {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 25px 20px 0 0;
+}
+
+.links_footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+>>>>>>> af43a4f557a58700c7a0b13b5aa585e139076f68

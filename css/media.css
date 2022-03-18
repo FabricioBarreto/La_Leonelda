@@ -1,4 +1,5 @@
 @media screen and (max-width: 1200px) {
+<<<<<<< HEAD
 	.img-main {
 	  height: 250px;
 	  width: 420px;
@@ -48,3 +49,49 @@
 	  }
 	}
   }
+=======
+  .img_main {
+    height: 250px;
+    width: 420px;
+  }
+
+  .gallery img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img_main {
+    height: 200px;
+    width: 300px;
+  }
+  .gallery img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .links_header {
+    display: none;
+  }
+
+  .btn_menu {
+    display: inline-block;
+  }
+
+  .img_main {
+    height: 300px;
+    width: 90%;
+  }
+
+  .gallery img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 532px) {
+    .btn_menu {
+      margin-left: 180px;
+    }
+  }
+}
+>>>>>>> af43a4f557a58700c7a0b13b5aa585e139076f68
