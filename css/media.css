@@ -1,50 +1,71 @@
 @media screen and (max-width: 1200px) {
-	.img-main {
-	  height: 250px;
-	  width: 420px;
-	}
-  
-	.gallery img {
-	  width: 400px;
-	}
+  .img-main {
+    height: 250px;
+    width: 420px;
   }
-  
-  @media screen and (max-width: 1000px) {
-	.img-main {
-	  height: 200px;
-	  width: 300px;
-	}
-	.gallery img {
-	  width: 300px;
-	}
-  }
-  
-  @media screen and (max-width: 766px) {
-	.links-header {
-		transition: .5s;
-		transform: translateX(1000px);
-	}
 
-	.visible{
-		transform: translateX(0);
-	}
-
-	.btn-menu {
-	  display: inline;
-	}
-  
-	.img-main {
-	  height: 300px;
-	  width: 90%;
-	}
-  
-	.gallery img {
-	  width: 100%;
-	}
-  
-	@media screen and (max-width: 532px) {
-	  .btn-menu {
-		margin-left: 180px;
-	  }
-	}
+  .gallery img {
+    width: 400px;
   }
+}
+
+@media screen and (max-width: 974px) {
+  .links-header {
+    display: none;
+    transition: 0.5s;
+  }
+
+  .visible {
+    background: #000;
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  .links-header a {
+  }
+
+  .links-header li {
+    margin: 10px;
+  }
+
+  .btn-menu {
+    display: inline;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 10px;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .img-main {
+    height: 200px;
+    width: 300px;
+  }
+  .gallery img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .logo-header {
+    font-size: 22px;
+  }
+
+  .btn-menu {
+    font-size: 20px;
+  }
+
+  .img-main {
+    height: 300px;
+    width: 90%;
+  }
+
+  .gallery img {
+    width: 100%;
+  }
+}
